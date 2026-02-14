@@ -1,130 +1,93 @@
 <!DOCTYPE html>
-<html class="dark" lang="en">
+<html lang="en">
 
 <head>
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <title>OpenNeural | Command Center</title>
+    <title>OpenNeural Foundation | Advancing Neuro-Immunology</title>
 </head>
 
-<body class="bg-background-dark text-slate-300 selection:bg-primary/30 overflow-x-hidden">
+<body class="bg-background text-slate-700 antialiased font-sans">
 
-    <main class="min-h-screen pt-16">
-        <!-- Ticker -->
-        <div class="h-8 bg-surface border-b border-white/5 flex items-center overflow-hidden whitespace-nowrap">
-            <div
-                class="flex items-center gap-8 animate-[scroll_20s_linear_infinite] text-[10px] font-mono text-primary/80 uppercase tracking-widest pl-100">
-                <span>:: SYSTEM STATUS: OPERATIONAL</span>
-                <span>:: LATEST BLOCK: 0x8F...2A</span>
-                <span>:: ACTIVE NODES: 842</span>
-                <span>:: PETABYTES SECURED: 14.5</span>
-                <span>:: NEW PUBLICATION: "LIPID-RAFT DYNAMICS IN MICROGLIA" [ON-PUB-2026-44]</span>
-                <span>:: SYMPOSIUM: DR. A. CHEN - KEYNOTE CONFIRMED</span>
-            </div>
-        </div>
-
-        <!-- Hero Dashboard -->
-        <section
-            class="relative h-[600px] border-b border-white/10 bg-grid flex items-center justify-center overflow-hidden">
-            <div class="absolute inset-0 bg-gradient-to-t from-background-dark via-transparent to-transparent"></div>
-
-            <div class="max-w-[1400px] mx-auto px-6 w-full grid grid-cols-1 lg:grid-cols-12 gap-12 relative z-10">
-                <div class="lg:col-span-7 flex flex-col justify-center">
-                    <div class="inline-flex items-center gap-2 mb-6">
-                        <span class="size-2 bg-primary rounded-sm animate-pulse"></span>
-                        <span class="font-mono text-xs text-primary uppercase tracking-widest">Decentralized Compute
-                            Network</span>
-                    </div>
-                    <h1 class="text-5xl md:text-7xl font-bold tracking-tighter text-white mb-6 leading-[0.9]">
-                        FORGING THE <br />
-                        <span
-                            class="text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary">FRONTIER</span>.
-                    </h1>
-                    <p class="text-lg text-slate-400 max-w-xl leading-relaxed mb-8">
-                        The OpenNeural Foundation provides the world's first decentralized infrastructure for
-                        high-fidelity neuro-immunology simulation. We bridge the gap between biological data and
-                        computational power.
-                    </p>
-                    <div class="flex gap-4">
-                        <a href="/openneural/infrastructure.html"
-                            class="px-8 py-3 bg-primary/10 border border-primary/50 text-primary font-mono text-xs font-bold uppercase tracking-widest hover:bg-primary/20 transition-all flex items-center gap-2 group">
-                            Access Network <span
-                                class="material-symbols-outlined text-sm group-hover:translate-x-1 transition-transform">arrow_forward</span>
-                        </a>
-                        <a href="/openneural/corporation.html"
-                            class="px-8 py-3 bg-white/5 border border-white/10 text-white font-mono text-xs font-bold uppercase tracking-widest hover:bg-white/10 transition-all">
-                            Partner / Invest
-                        </a>
-                    </div>
+    <main>
+        <!-- Formal Hero Section -->
+        <section class="relative bg-surface border-b border-border-light pt-32 pb-24 px-6">
+            <div class="max-w-[1000px] mx-auto text-center">
+                <div
+                    class="inline-block px-4 py-1.5 bg-accent/10 text-accent text-xs font-semibold tracking-widest uppercase mb-8 rounded-full">
+                    A 501(c)(3) Non-Profit Organization
                 </div>
-
-                <!-- Right Side: Tech Viz -->
-                <div class="hidden lg:col-span-5 lg:flex items-center justify-center relative">
-                    <div
-                        class="relative w-full aspect-square border border-primary/20 bg-background-card/50 backdrop-blur-sm rounded-full flex items-center justify-center p-12">
-                        <!-- Rotating Rings -->
-                        <div
-                            class="absolute inset-0 border border-dashed border-primary/10 rounded-full animate-[spin_20s_linear_infinite]">
-                        </div>
-                        <div
-                            class="absolute inset-4 border border-dotted border-secondary/20 rounded-full animate-[spin_15s_linear_infinite_reverse]">
-                        </div>
-
-                        <!-- Core Data -->
-                        <div class="text-center font-mono z-10">
-                            <div class="text-4xl font-bold text-white mb-1">99.99%</div>
-                            <div class="text-xs text-slate-500 uppercase tracking-widest">Network Uptime</div>
-                            <div class="w-full h-px bg-white/10 my-4"></div>
-                            <div class="flex justify-between gap-8 text-[10px] text-slate-400">
-                                <span>LATENCY: 12ms</span>
-                                <span>LOAD: 42%</span>
-                            </div>
-                        </div>
-                    </div>
+                <h1 class="text-5xl md:text-7xl font-serif font-semibold text-primary mb-8 leading-tight">
+                    Democratizing Research.<br />
+                    <span class="text-accent">Accelerating Discovery.</span>
+                </h1>
+                <p class="text-xl text-slate-500 max-w-2xl mx-auto leading-relaxed mb-12 font-serif font-light">
+                    The OpenNeural Foundation bridges the gap between computational modeling and biological reality,
+                    providing open access infrastructure for the next generation of researchers.
+                </p>
+                <div class="flex flex-col md:flex-row gap-6 justify-center">
+                    <a href="/openneural/programs.html" class="btn-primary rounded-sm shadow-md">Explore Our
+                        Programs</a>
+                    <a href="/openneural/research.html" class="btn-secondary rounded-sm shadow-sm">View Research
+                        Index</a>
                 </div>
             </div>
         </section>
 
-        <!-- Executive Summary Cards -->
-        <section class="py-24 border-b border-white/5">
-            <div class="max-w-[1400px] mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-8">
-                <div class="bg-surface p-8 border border-white/5 hover:border-primary/30 transition-colors group">
-                    <span
-                        class="material-symbols-outlined text-4xl text-secondary mb-6 group-hover:text-primary transition-colors">hub</span>
-                    <h3 class="text-xl font-bold text-white mb-3">Distributed Infrastructure</h3>
-                    <p class="text-sm text-slate-400 leading-relaxed mb-6">
-                        Utilizing a global network of IPFS nodes to ensure immutable data storage and
-                        censorship-resistant scientific publication.
+        <!-- Mission Pillars -->
+        <section class="py-24 px-6">
+            <div class="max-w-[1280px] mx-auto grid grid-cols-1 md:grid-cols-3 gap-12">
+                <!-- Pillar 1 -->
+                <div class="p-8 border border-border-light bg-surface rounded-sm hover:shadow-lg transition-shadow">
+                    <span class="material-symbols-outlined text-4xl text-accent mb-6">public</span>
+                    <h3 class="text-2xl font-serif text-primary mb-4">Open Access</h3>
+                    <p class="text-slate-600 leading-relaxed text-sm">
+                        We believe scientific knowledge is a public good. Our decentralized infrastructure ensures that
+                        data, publications, and tools remain accessible to researchers worldwide, free of paywalls.
                     </p>
-                    <a href="/openneural/infrastructure.html"
-                        class="text-xs font-mono text-primary uppercase tracking-widest hover:underline">View Topology
-                        -></a>
                 </div>
 
-                <div class="bg-surface p-8 border border-white/5 hover:border-primary/30 transition-colors group">
-                    <span
-                        class="material-symbols-outlined text-4xl text-secondary mb-6 group-hover:text-primary transition-colors">genetics</span>
-                    <h3 class="text-xl font-bold text-white mb-3">Biological Simulation</h3>
-                    <p class="text-sm text-slate-400 leading-relaxed mb-6">
-                        Proprietary physics engines typically reserved for AAA gaming, now repurposed for accurate
-                        molecular interaction modeling.
+                <!-- Pillar 2 -->
+                <div class="p-8 border border-border-light bg-surface rounded-sm hover:shadow-lg transition-shadow">
+                    <span class="material-symbols-outlined text-4xl text-accent mb-6">model_training</span>
+                    <h3 class="text-2xl font-serif text-primary mb-4">Computational Modeling</h3>
+                    <p class="text-slate-600 leading-relaxed text-sm">
+                        By adapting high-fidelity physics engines for biological simulation, we create "living
+                        laboratories" that allow for complex neuro-immunological interactions to be modeled in
+                        real-time.
                     </p>
-                    <a href="/openneural/initiatives.html"
-                        class="text-xs font-mono text-primary uppercase tracking-widest hover:underline">Explore Core
-                        -></a>
                 </div>
 
-                <div class="bg-surface p-8 border border-white/5 hover:border-primary/30 transition-colors group">
-                    <span
-                        class="material-symbols-outlined text-4xl text-secondary mb-6 group-hover:text-primary transition-colors">verified_user</span>
-                    <h3 class="text-xl font-bold text-white mb-3">Open Governance</h3>
-                    <p class="text-sm text-slate-400 leading-relaxed mb-6">
-                        Transparent operations managed by an executive board dedicated to the advancement of open
-                        science protocols.
+                <!-- Pillar 3 -->
+                <div class="p-8 border border-border-light bg-surface rounded-sm hover:shadow-lg transition-shadow">
+                    <span class="material-symbols-outlined text-4xl text-accent mb-6">school</span>
+                    <h3 class="text-2xl font-serif text-primary mb-4">Education</h3>
+                    <p class="text-slate-600 leading-relaxed text-sm">
+                        Empowering the next generation of scientists through mentorship, publishing opportunities, and
+                        direct access to enterprise-grade research tools.
                     </p>
-                    <a href="/openneural/corporation.html"
-                        class="text-xs font-mono text-primary uppercase tracking-widest hover:underline">Meet Leadership
-                        -></a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Impact Stats (Simple) -->
+        <section class="bg-primary text-white py-20 px-6">
+            <div class="max-w-[1280px] mx-auto grid grid-cols-1 md:grid-cols-4 gap-12 text-center">
+                <div class="space-y-2">
+                    <div class="text-5xl font-serif font-bold">2024</div>
+                    <div class="text-xs uppercase tracking-widest opacity-70">Year Founded</div>
+                </div>
+                <div class="space-y-2">
+                    <div class="text-5xl font-serif font-bold">5+</div>
+                    <div class="text-xs uppercase tracking-widest opacity-70">Research Divisions</div>
+                </div>
+                <div class="space-y-2">
+                    <div class="text-5xl font-serif font-bold">100%</div>
+                    <div class="text-xs uppercase tracking-widest opacity-70">Open Source</div>
+                </div>
+                <div class="space-y-2">
+                    <div class="text-5xl font-serif font-bold">Global</div>
+                    <div class="text-xs uppercase tracking-widest opacity-70">Network Reach</div>
                 </div>
             </div>
         </section>
