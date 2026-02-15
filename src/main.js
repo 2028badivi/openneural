@@ -4,7 +4,7 @@ import logoUrl from './assets/logo.jpg'
 
 const NAVIGATION = [
     { name: 'Home', href: '/openneural/', id: 'nav-home' },
-    { name: 'Olympiad', href: '/openneural/olympiad.html', id: 'nav-olympiad' },
+    { name: 'OpenHacks', href: '/openneural/openhacks.html', id: 'nav-openhacks' },
     { name: 'Programs', href: '/openneural/programs.html', id: 'nav-programs' },
     { name: 'Research', href: '/openneural/research.html', id: 'nav-research' },
     { name: 'Leadership', href: '/openneural/leadership.html', id: 'nav-leadership' },
@@ -25,7 +25,7 @@ function renderHeader() {
                     <img src="${logoUrl}" alt="OpenNeural Logo" class="h-10 w-10 object-contain rounded-full shadow-sm">
                     <div class="flex flex-col">
                         <span class="text-xl font-serif font-bold text-primary leading-none tracking-tight">OpenNeural</span>
-                        <span class="text-[0.6rem] uppercase tracking-widest text-slate-400 font-bold pt-1">Decentralized Intelligence</span>
+                        <span class="text-[0.6rem] uppercase tracking-widest text-slate-400 font-bold pt-1">Research Outreach</span>
                     </div>
                 </a>
             </div>
@@ -54,7 +54,7 @@ function renderFooter() {
                     <span class="font-serif font-bold text-slate-700 text-lg">OpenNeural</span>
                 </div>
                 <p class="text-slate-500 text-sm leading-relaxed max-w-sm">
-                    A pioneer in neuro-immunology research, democratizing access through open-source computational modeling and decentralized education protocols.
+                    A pioneer in neuro-immunology outreach, democratizing access through open-source computational modeling and decentralized education protocols.
                 </p>
                 <div class="pt-2 flex gap-4">
                     <a href="https://github.com/openneural-dev" class="text-slate-400 hover:text-accent transition-colors" target="_blank">
@@ -71,7 +71,7 @@ function renderFooter() {
                     <li><a href="/openneural/leadership.html" class="hover:text-accent transition-colors">Leadership</a></li>
                     <li><a href="/openneural/programs.html" class="hover:text-accent transition-colors">Programs</a></li>
                     <li><a href="/openneural/research.html" class="hover:text-accent transition-colors">Research Repository</a></li>
-                    <li><a href="/openneural/olympiad.html" class="hover:text-accent transition-colors">Neurovation Olympiad</a></li>
+                    <li><a href="/openneural/openhacks.html" class="hover:text-accent transition-colors">OpenHacks</a></li>
                 </ul>
             </div>
 
@@ -98,7 +98,7 @@ function renderFooter() {
 
         <div class="max-w-[1280px] mx-auto px-6 pt-8 border-t border-slate-200 flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-slate-400 font-medium">
             <span>© 2026 OpenNeural. All Rights Reserved.</span>
-            <span>Innovating at the Frontier of Neuroimmunology.</span>
+            <span>Innovating at the Frontier of Neuro-Immunology.</span>
         </div>
     </footer>
     `;

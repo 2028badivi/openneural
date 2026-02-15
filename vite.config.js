@@ -11,7 +11,7 @@ export default defineConfig({
                 research: resolve(__dirname, 'research.html'),
                 leadership: resolve(__dirname, 'leadership.html'),
                 programs: resolve(__dirname, 'programs.html'),
-                olympiad: resolve(__dirname, 'olympiad.html'),
+                openhacks: resolve(__dirname, 'openhacks.html'),
             },
         },
     },
